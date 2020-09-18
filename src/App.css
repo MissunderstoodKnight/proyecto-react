@@ -1,11 +1,26 @@
 .App {
-  padding-top: 36px;
   text-align: center;
+  background-color: #CAE8D5;
+  
+}
+
+.Title {
+  display: flex;
+  padding-bottom: 5%;
+  background-color: #3B6978;
+  justify-content: center;
+}
+
+.Title-text{
+  font-size: 64px;
+  padding-top: 36px;
+  color: #E5DFDF;
 }
 
 .SearchForm-wrapper{
   display: flex;
   justify-content: center;
+  padding-top: 36px;
 }
 
 .MoviesList{
@@ -17,5 +32,5 @@
 
 .MoviesList-item{
   margin-bottom: 24px;
-  width: 48%;
+  width: 18%;
 }

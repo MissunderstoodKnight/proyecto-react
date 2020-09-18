@@ -20,7 +20,9 @@ export class Home extends Component {
     render () {
         return (
         <div>
-          <Title>Movies</Title>
+          <div>
+            <Title><p className="Title-text">MOVIES</p></Title>
+          </div>
           <div className="SearchForm-wrapper">
             <SearchForm onResults={this._handleResults}/>
           </div>
